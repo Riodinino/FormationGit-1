@@ -9,7 +9,7 @@ seq(0, 1, by=.1) == .3 # Has no case where true
 
 unique(c(.3, .4 - .1, .5 - .2, .6 - .3, .7 - .4)) # is of length 3
 
-#Example with the quadratic formula : find the solution of aX²+bX+c = 0, c(a,b,c) being real^3
+#Example with the quadratic formula : find the solution of aX²+bX+c = 0 ; a,b,c being reals or complex numbers
 
 quadratic_formula <- function (a, b, c)
 {
